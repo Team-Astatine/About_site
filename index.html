@@ -45,8 +45,8 @@
     <script>
       // 이미지 로드
       const img = new Image();
-      img.src = "https://minelist.kr/servers/15977/banner/modern.png"; // 대상 이미지 URL
-      img.crossOrigin = "Anonymous"; // CORS 문제 해결
+      img.src = "https://api.allorigins.win/raw?url=https://minelist.kr/servers/15977/banner/modern.png";
+
 
       img.onload = () => {
         const canvas = document.getElementById("canvas");
