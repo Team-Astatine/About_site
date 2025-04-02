@@ -1,0 +1,7 @@
+body {
+    background-color: #800020;
+}
+
+.custom-image {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg) brightness(90%) contrast(85%);
+  }
